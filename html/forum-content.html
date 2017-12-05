@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="description" content="得实客户支持">
+		<title>得实客户支持</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" href="../css/forum-content.css" />
+		<script src="../js/asset/script.js/src/script.js"></script>
+    <script>
+        $script.path('../js/');
+        $script(['asset/jquery-1.9.1.min.js',
+                    'public.js'
+                ],
+                function () {
+                    $script(['common.js',
+                                'forum_Contentbbs.js'
+                            ],
+                            function () {
+                                console.log('依赖异步加载！')
+                            })
+                })
+    </script>
+
+    <!--  Internet Explorer 8 需要 Respond.js 配合才能实现对媒体查询（media query）的支持-->
+    <!--[if lt IE 9]>
+    <script src="../js/asset/html5shiv.min.js"></script>
+    <script src="../js/asset/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<!--头部-->
+		<header class="public-header"></header>
+		<div class="return-top"></div> <!-- 回到顶部按钮-->
+		<!---------搜索部分------->
+		<div class="forum_head">
+			<div class="search">
+				<input type="text" class="search_input" placeholder="输入关键字全文搜索" />
+				<input type="submit" class="search_btn" value="搜索" />
+			</div>
+			<div class="hot_search">
+				<span>热搜板块：</span>
+				<span><a href="">标签打印机</a></span>
+				<span><a href="">针式打印机</a></span>
+				<span><a href="">证卡打印机</a></span>
+				<span><a href="">应用软件</a></span>
+				<span><a href="">常见问题</a></span>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+
+		<!--发帖信息-->
+		<div class="post_man">
+			<div class="host_note clearfix">
+				<!--发帖子相关信息-->
+				<div class="note_content clearfix">
+					<!--<div class="note_cleft">-->
+						<!--<p class="note_ctop">sunnywang</p>-->
+						<!--<div class="personal_mesaage">-->
+							<!--<img src="../img/forumDetail/f1.gif" alt="" />-->
+							<!--<p>级别：<span>论坛版主</span></p>-->
+							<!--<p>精华：<span>27</span></p>-->
+							<!--<p>发帖：<span>8881</span></p>-->
+							<!--<p>威望：<span>9298</span>点</p>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--<div class="note_cright">-->
+						<!--<div class="title_tright">-->
+							<!--<span>[证卡打印机]聊聊使用的打印机</span>-->
+							<!--<img src="../img/forumDetail/recommend_3.gif" />-->
+						<!--</div>-->
+						<!--<div>-->
+							<!--<div class="note_crtop">-->
+								<!--<p class="publish_time">发表于 <span>2013-6-5 16:13:12</span></p>-->
+								<!--<div class="title_tleft">-->
+									<!--<span>查看：</span>-->
+									<!--<span class="note_data seecount">1611</span>-->
+									<!--<span class="reversion">回复：</span>-->
+									<!--<span class="note_data">11</span>-->
+								<!--</div>-->
+
+							<!--</div>-->
+							<!--<div class="note_crcontent">-->
+								<!--各位都是使用哪家公司的打印机，咱们聊聊这些打印机。</br>-->
+							<!--</div>-->
+							<!--<div class="note_setconfig pnote_set">-->
+								<!--<span class="thumbs_up">点赞</span>-->
+								<!--<span class="store">收藏</span>-->
+								<!--&lt;!&ndash;&nbsp;&nbsp;<a href="">举报</span>&ndash;&gt;-->
+							<!--</div>-->
+						<!--</div>-->
+					<!--</div>-->
+
+				</div>
+
+
+				<!--评论帖子区域-->
+				<div class="new-comment">
+					<span class="new-span">最新评论</span>
+					<span>正序排列</span>
+				</div>
+
+				<div class="comment-list">
+					<!------回复帖子内容---------->
+					<!--<div class="pperson clearfix">-->
+					<!--<div class="note_cleft">-->
+                        <!--<p class="note_top">sunnywang</p>-->
+                        <!--<div class="personal_mesaage">-->
+                            <!--<img src="../img/forumDetail/f1.gif" alt="" />-->
+                            <!--<p>级别：<span>新门入手</span></p>-->
+                            <!--<p>精华：<span>27</span></p>-->
+                            <!--<p>发帖：<span>81</span></p>-->
+                            <!--<p>威望：<span>98</span>点</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+						<!--<div class="comment_right">-->
+							<!--<div>-->
+								<!--<div class="note_rtop">-->
+									<!--<p class="publish_time">发表于 <span>2013-6-5 16:13:12</span>&nbsp;&nbsp;&nbsp;<span>只看该作者</span></p>-->
+								<!--</div>-->
+								<!--<div class="note_content">-->
+									<!--我们公司是用得实打印机</br>-->
+								<!--</div>-->
+
+								<!--<div class="note_setconfig">-->
+									<!--<span class="thumbs_up" style="color: rgb(153, 153, 153);">点赞</span>-->
+									<!--<span><img style="width: 20px;"  src="../img/forumDetail/cai.png"/>踩</span> &nbsp;&nbsp;-->
+									<!--<span>举报</span>-->
+									<!--<span class="setrestore">回复</span>-->
+
+									<!--<div class="restore_list">-->
+										<!--<ul>-->
+											<!--<li class="clearfix">-->
+												<!--<img src="../img/forumDetail/f3.jpg" alt="" />-->
+												<!--<div class="restore_right">-->
+													<!--<span class="restore_name">一页倾城</span>&nbsp;:-->
+													<!--<span class="substance_name">我们公司也是</span>-->
+													<!--<p class="restore_time">-->
+														<!--<span>2013-7-30 22:17</span>-->
+														<!--<a href="javascript:;">回复</a>-->
+													<!--</p>-->
+												<!--</div>-->
+											<!--</li>-->
+
+										<!--</ul>-->
+										<!--<div class="restore_text">-->
+											<!--<textarea class="text"></textarea>-->
+											<!--<input type="submit" class="submit" value="回复" />-->
+											<!--<a href="javascript:;" class="restore_btn"><span>发表</span></a>-->
+										<!--</div>-->
+									<!--</div>-->
+
+								<!--</div>-->
+
+							<!--</div>-->
+						<!--</div>-->
+					<!--</div>-->
+				</div>
+				<!--分页-->
+				<div class="ppage">
+					<span class="homePage">首页</span>
+					<span>上一页</span>
+					<div class="pageNum"></div>
+					<span>下一页</span>
+					<span>尾页</span>
+				</div>
+
+				<!--发帖-->
+				<div class="send_note">
+					<h3 class="send_title">
+						<span>发表回复</span>
+					</h3>
+					<textarea id="replycontent" placeholder=""></textarea>
+					<input type="submit" class="submit" value="回复" />
+					<input type="checkbox" name="" id="" value="" />
+					<span class="skip">回帖后跳转到最后一页</span>
+					<div class="reply-hint">
+						<span>您需要登录后才可以回帖 </span>
+						<a href="loginff.html">登录</a>|
+						<a href="registerFF.html">注册</a>
+					</div>
+				</div>
+				<!--//未登录提示-->
+				<div class="prompt-login">
+					<img src="../img/forumDetail/prompt.png"/>
+					<span>抱歉，你需要先登录才能继续本操作，2秒后转向登录页面</span>
+				</div>
+
+			</div>
+
+
+			<!-------右边区域内容------->
+			<div class="post_right">
+				<div class="download_pic">
+					<a href="softwaredownload.html">
+						<img src="../img/forumDetail/original2.png" />
+					</a>
+				</div>
+
+				<div class="download_pic">
+					<a href="videoPlay.html">
+						<img src="../img/forumDetail/original3.jpg" />
+					</a>
+				</div>
+
+				<div class="download_pic">
+					<a href="college-video.html">
+						<img src="../img/forumDetail/origin4.jpg" />
+					</a>
+				</div>
+				<div class="new_technology">
+					<h3>热门技术文档</h3>
+					<ul>
+						<li>
+							<a href="">安装并使用 Windows 内置打印驱动程序</a>
+						</li>
+						<li>
+							<a href="">使用“Apple 软件更新”在 Mac 上安装合适的打印机驱动程序和软件</a>
+						</li>
+						<li>
+							<a href="">LaserJet 1018、1020、1022 激光打印机 - 安装/更换硒鼓</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<!--底部-->
+		<footer class="public-footer"></footer>
+	
+	</body>
+
+</html>

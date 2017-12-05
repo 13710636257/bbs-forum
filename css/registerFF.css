@@ -1,0 +1,266 @@
+error_tipbody{
+    /*background:#f7f7f7;*/
+    width:100%;
+    min-width: 1200px;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+ *{
+ 	padding: 0;
+ 	margin: 0px;
+ }
+
+ 
+.login_content{
+    width:100%;
+    background: #f1eeee;
+   
+}
+.bannerpic{
+	min-height: 407px;
+    background: url("../img/register/loginPic33.jpg") no-repeat;
+    background-size:100% 407px;
+    opacity: .9;
+    
+}
+.bannerpic p{
+	width:250px;
+	height: 30px;
+	float: right;
+	margin-top: 20px;
+}
+.bannerpic a{
+	color: red;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+}
+.bannerpic a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+.login_content .main_login{
+    width:1200px;
+    margin:0 auto;
+    padding-top:24px;
+    padding-bottom: 30px;
+   
+  
+}
+.login_content .main_login form{
+    width:885px;
+    background: rgba(255,255,255,0.7);
+    margin:0 auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+ 
+}
+.main_login h3{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-top: 10px;
+	font-size: 34px;
+	color: #424242;
+}
+
+
+
+.login_content .main_login p{
+	width: 685px;
+	margin: 0 auto;
+    margin-top:15px;
+    /*margin-left:139px;*/
+}
+.login_content .main_login .wtip{
+    color:red;
+}
+.login_content .main_login .tips{
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+    font-family: Arial, 宋体;
+    width:110px;
+    text-align: right;
+
+}
+
+.main_login  p input{
+    height: 16px;
+    width: 328px;
+    padding: 11px 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #000;
+}
+.main_login  #send_msg{
+    width: 120px;
+    height: 43px;
+    text-align: center;
+    color: white;
+    background-color: #a1d1f6;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login_content .main_login p .error_tip{
+    color:#e41457;
+    font-size:13px;
+}
+
+.login_content .main_login .protocol{
+    margin-top:20px;
+    padding-left:99px;
+}
+
+#registerhins{
+	width: 380px;
+	height: 40px;
+	border: 1px solid red;
+}
+
+.login_content .main_login .protocol a{
+    color:#1b66c7;
+}
+
+/*验证码样式*/
+.login_content .main_login p .check_code{
+    width:189px;
+}
+.login_content .main_login .everify_img{
+    height:38px;
+    width:112px;
+    vertical-align: middle;
+    margin-top:-2px;
+
+}
+.login_content .main_login .change_img{
+    display:inline-block;
+    height:28px;
+    width:132px;
+    cursor:pointer;
+    /*background: red;*/
+}
+
+.vertips{
+	color: red ;
+	font-size: 14px;
+}
+
+.responseMsg{
+    height: 25px;
+   color: red;
+	font-size:16px ;
+    padding-left: 50px;
+    display: none;
+}
+
+.login_content .main_login .submit{
+    width:280px;
+    height:38px;
+    line-height: 18px;
+    background:#0e6cca;
+    color:#fff;
+    text-align: center;
+    font-size:20px;
+    margin-left:135px;
+    border-radius: 8px;
+}
+
+
+.service_tips{
+	color: red;
+}
+
+
+
+/*协议*/
+
+.protocol_content{
+    position: fixed;
+    width:660px;
+    top:50%;
+    left:50%;
+    margin-left:-330px;
+    margin-top:-110px;
+    background-color: #fff;
+    border: #B0B0B0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2), 0 0 5px rgba(0,0,0,.2);
+    border-radius: 4px;
+    display: none;
+
+}
+.protocol_content .protocol_title{
+    position:relative;
+    height: 46px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 46px;
+    border-bottom: 1px solid #ebebeb;
+    color: #606060;
+    text-align: center;
+
+}
+
+.protocol_content .protocol_title .close_btn{
+    position: absolute;
+    right:0;
+    padding:0 20px;
+    top:0;
+    font-size:26px;
+    cursor: pointer;
+}
+.protocol_content .protocol_text {
+    padding:10px 20px;
+}
+
+/*底部*/
+footer{
+    /*margin-top:34px;*/
+    width:100%;
+}
+
+footer .service_info{
+    background:#ebebeb;
+    padding:20px 0;
+}
+.service_copyright{
+    background:#000;
+    color:#fff;
+    padding:20px 0;
+}
+
+.service_copyright .copyright_content{
+    width:1200px;
+    margin:0 auto;
+    text-align: center;
+}
+.copyright_content .aboutus{
+    padding:10px 0;
+}
+.copyright_content .aboutus a{
+    color:#fff;
+    padding: 0 20px;
+    border-right:1px solid #fff;
+
+}
+.copyright_content .aboutus a:last-of-type{
+    border-right:none;
+
+}
+
+.copyright_content p span{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background:url("../img/home/icon_ba.png") no-repeat;
+}

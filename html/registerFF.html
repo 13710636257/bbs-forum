@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="得实客户支持">
+    <title>得实客户支持</title>
+    <!--<link rel="stylesheet" href="../css/base.css"/>-->
+    <link rel="stylesheet" href="../css/registerFF.css"/>
+    <script src="../js/asset/jquery-3.1.1.js"></script>
+</head>
+<body>
+<!--头部-->
+
+ 
+
+<!------------背景图-->
+<div class="login_content">
+	<div class="bannerpic">
+		<p class="" style="color: white;">
+			已有账号？去<a href="loginff.html" class="login">登录</a>
+        	<a href="home.html" class="home">返回首页</a>
+		</p>
+		
+	</div>
+	
+	<!---------------账号注册---------->
+    <div class="main_login">
+        <form id="reg_allform" >
+        	<h3 class="register">得实账号注册</h3>
+            <p>
+                <span class="tips"><span class="wtip">*</span>用户名</span>
+                <input type="text" name="name" placeholder="请输入用户名" class="username" value="stella" />
+                <span class="error_tip"></span>
+            </p>
+            <p>
+                <span class="tips"><span class="wtip">*</span>密码</span>
+                <input type="password" name="password[]" placeholder="请输人密码" class="password" value="123456" />
+                <span class="error_tip"></span>
+            </p>
+            <p>
+                <span class="tips"><span class="wtip">*</span>确认密码</span>
+                <input type="password" name="password[]" placeholder="请确认密码" class="password" id="re_pcheck" value="123456" />
+                <span class="error_tip"></span>
+            </p>
+           
+           <p class="codep">
+                <span class="tips" id="title"><span class="wtip">*</span>验证码</span>
+                <input type="text" name="code" placeholder="请输入验证码" class="check_code" id="randverify"/>
+	            <img src="http://192.168.11.111/Apply/User/login/code" alt="验证码" class="everify_img" id="code_img"/>
+	            <span class="change_img">看不清？换一换</span>
+                <br/>
+                <span class="responseMsg" id="responseMsg">图片验证码不正确，请重新输入</span>
+	        	<span class="vertips"></span>
+            </p>
+           
+            <p>
+                <span class="tips"><span class="wtip">*</span>手机号</span>
+                <input type="text" name="phone" placeholder="请输入手机号" class="phone" value="13710636257"/>
+                <span class="error_tip"></span>
+            </p>
+             <p>
+                <span class="tips"><span class="wtip">*</span>邮箱</span>
+                <input type="text" name="email" placeholder="请输入邮箱" class="email" value="1945904807@qq.com"/>
+                <span class="error_tip"></span>
+            </p>
+            <p>
+             	<span class="tips" id=""><span class="wtip">*</span>邮箱验证码</span>
+                <input type="text" name="mailCode" placeholder="请输入验证码" class="check_code" id="re_msgverify"/>
+                <input type="button" id="send_msg" class="b-btn" value="获取验证码" />
+            </p>
+            
+            <p>
+                <input type="button" class="submit" value="立即注册"/>
+            </p>
+
+            <div class="protocol">
+                <input type="checkbox" id="service_btn" checked/>
+              		  点击'立即注册'，即表示您同意并愿意遵守得实用户协议
+                <a href="javascript:;" class="protocol_tip">《得实用户协议》</a>
+                 <div class="service_tips"></div>
+            </div>
+            
+        </form>
+
+    </div>
+</div>
+
+<!--协议-->
+<div class="protocol_content">
+    <!--协议头部-->
+    <div class="protocol_title">
+        <h3>得实用户协议</h3>
+        <span class="close_btn">x</span>
+    </div>
+    <div class="protocol_text">
+        <p>在注册前请先阅读以下协议</p>
+        <p>一、不得利用本站危害国家安全、泄露国家秘密，不得侵犯国家社会集体的和公民的合法权益，不得利用本站制作、复制和传播下列信息：</p>
+        <div style="padding-left:20px;">
+            <p>（一）煽动抗拒、破坏宪法和法律、行政法规实施的；</p>
+            <p>（二）煽动颠覆国家政权，推翻社会主义制度的；</p>
+            <p>（三）煽动分裂国家、破坏国家统一的；</p>
+            <p>（四）煽动民族仇恨、民族歧视，破坏民族团结的；</p>
+            <p>（五）捏造或者歪曲事实，散布谣言，扰乱社会秩序的；</p>
+            <p>（六）宣扬封建迷信、淫秽、色情、赌博、暴力、凶杀、恐怖、教唆犯罪的；</p>
+            <p>（七）公然侮辱他人或者捏造事实诽谤他人的，或者进行其他恶意攻击的</p>
+            <p>（八）损害国家机关信誉的；</p>
+            <p>（九）其他违反宪法和法律行政法规的；</p>
+            <p>（十）发布黄色反动文章</p>
+        </div>
+            <p>二、互相尊重，对自己的言论和行为负责。</p>
+    </div>
+</div>
+
+
+<!--底部-->
+<footer>
+    <div class="service_copyright">
+        <div class="copyright_content">
+            <div class="aboutus">
+                <a href="javascript:;">网站地图</a>
+                <a href="javascript:;">联系我们</a>
+                <a href="javscript;;">加入我们</a>
+                <a href="javascript:;">使用声明</a>
+                <a href="javascript:;">隐私政策</a>
+            </div>
+            <p>© 2013 版权所有 得实集团 京ICP备10012480号  <span></span>粤公网安备 44070402440764号</p>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="../js/registerFF.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var protocolTip=$(".protocol_tip");
+    var prtocolContent=$(".protocol_content");
+    var closeBtn=$(".close_btn");
+    protocolTip.click(function(){
+        prtocolContent.show();
+    });
+    closeBtn.click(function(){
+        prtocolContent.hide();
+    })
+
+
+
+
+</script>
+</html>
